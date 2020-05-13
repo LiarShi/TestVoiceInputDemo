@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">TestVoiceInputDemo</string>
+    <string name="app_name">科大讯飞语音输入demo</string>
     <string name="app_id"></string>
 </resources>

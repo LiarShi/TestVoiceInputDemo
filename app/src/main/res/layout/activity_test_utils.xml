@@ -11,16 +11,20 @@
         android:id="@+id/tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="测试Utils!"
-        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        tools:text="语音输入内容"
+        android:textSize="20dp"
          />
 
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="50dp"
-        android:text="Button" />
+        android:text="语音输入"
+        android:textSize="18sp"/>
 
 </LinearLayout>

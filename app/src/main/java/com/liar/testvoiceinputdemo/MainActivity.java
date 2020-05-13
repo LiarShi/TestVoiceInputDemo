@@ -12,6 +12,7 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.iflytek.cloud.SpeechUtility;
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         requestPermissions();
 
         Button button=(Button) findViewById(R.id.button);
-
+        TextView tv=(TextView) findViewById(R.id.textView);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
                 TestUtilsActivity.start(MainActivity.this);
             }
         });
+
+
     }
 
     private void requestPermissions(){
@@ -101,8 +104,8 @@ public class MainActivity extends AppCompatActivity {
             }catch (Exception e) {
                 showTip("reset url failed");
             }
-
         }
+
     }
 
 
